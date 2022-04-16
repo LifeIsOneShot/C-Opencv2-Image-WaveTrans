@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
-Release|Win32|G:\matlab图像处理资料\滤镜算法\图像变形\Project1\|
+PlatformToolSet=v143:VCToolArchitecture=Native32Bit:VCToolsVersion=14.30.30705:TargetPlatformVersion=10.0.19041.0:VcpkgTriplet=x86-windows:
+Release|Win32|C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\|

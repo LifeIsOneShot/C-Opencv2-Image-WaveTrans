@@ -66,13 +66,12 @@ double Image::BSpline(int s, double t)	//B-Spline
 	return Gt;
 }
 
-int Image::waterWaveTrans(Mat &src, Mat &dst)	//물 파동
+Mat Image::waterWaveTrans(Mat &src, Mat &dst)	//물 파동
 { 
-	dst = src.clone();
 	float a, b;
 	float shui=0;
-	cout<<"shuiwenbo input(1 ~ 10):"<<endl;
-	cin>>shui;
+
+	shui = 1;
 	for (int y = 0; y < m_height; y++)
 	{
 	   for (int x = 0; x < m_width; x++)
@@ -87,7 +86,7 @@ int Image::waterWaveTrans(Mat &src, Mat &dst)	//물 파동
 			if (r>r2) 
 			{                                //최대 회전 반지름을 초과할 경우
 				for (int k = 0; k < m_channals; k++)
-					dst.at<Vec3b>(Point(x, y))[k] = biLinear(x, y, k);
+					m_ori.at<Vec3b>(Point(x, y))[k] = biLinear(x, y, k);
 				continue;                                 //좌표 그대로 적용
 			}
 		
@@ -97,19 +96,20 @@ int Image::waterWaveTrans(Mat &src, Mat &dst)	//물 파동
 			for (int k = 0; k < m_channals; k++)
 			{
 				if ((uchar)biLinear(a, b, k))
-					dst.at<Vec3b>(y, x)[k] = (uchar)biLinear(a, b, k);
+					m_ori.at<Vec3b>(y, x)[k] = (uchar)biLinear(a, b, k);
 			}
 		}
 	}
-	return 0;
+	dst = m_ori.clone();
+	return dst;
 }
 
-int Image::rotateWaveTrans(Mat &src, Mat &dst){ //이미지 회전 변형
-	dst = src.clone();
+Mat Image::rotateWaveTrans(Mat &src, Mat &dst){ //이미지 회전 변형
 	float a, b;
 	float th=0;
-	cout<<"luzhuan input(1 ~ 10):"<<endl;
-	cin>>th;
+	th = 2;
+
+
 	for (int y = 0; y < m_height; y++)
 	{
 		for (int x = 0; x < m_width; x++)
@@ -134,7 +134,7 @@ int Image::rotateWaveTrans(Mat &src, Mat &dst){ //이미지 회전 변형
 			}
 		}
 	}
-	return 0;
+	return dst;
 }
 
 int Image::BTrans(Mat &dst, vector<Point>mUp, vector<Point>mDown)	//B형 파동

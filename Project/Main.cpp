@@ -8,16 +8,18 @@ Mat BT;
 
 int main()
 {
-	Mat Readimage, wave, rote;
+	while (1) {
+		Mat Readimage, wave, rote;
 
-	Readimage = imread("../img/lena.jpg");//read image
-	BT = Readimage.clone();
-	
-	image.getImageInfo(Readimage);//get image information
+		Readimage = imread("../img/lena.jpg");//read image
+		resize(Readimage, Readimage, Size(800, 800));
+		BT = Readimage.clone();
 
-	// main algorithm
-	showWave(image, Readimage, wave, rote, BT);
+		image.getImageInfo(Readimage);//get image information
 
+		// main algorithm
+		showWave(image, Readimage, wave, rote, BT);
+	}
 	// press 's' to stop
 	cout<<"************************************************"<<endl;
 	cout<<"************************************************"<<endl;

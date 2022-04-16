@@ -18,8 +18,8 @@ public:
 	int getImageInfo(Mat &src);				//
 	int biLinear(float x, float y, int channels);//双线性插值函数
 	double BSpline(int s, double t);			//3次样条插值径向基函数
-	int waterWaveTrans(Mat &src, Mat &dst);   //水波纹函数
-	int rotateWaveTrans(Mat &src, Mat &dst);  //旋转函数
+	Mat waterWaveTrans(Mat &src, Mat &dst);   //水波纹函数
+	Mat rotateWaveTrans(Mat &src, Mat &dst);  //旋转函数
 	int BTrans(Mat &dst, vector<Point>mUp, vector<Point>mDown);   //B样条函数
 };
 

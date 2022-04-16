@@ -6,23 +6,26 @@ C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(35,10): w
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(49,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(50,49): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(51,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(80,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(81,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(86,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(90,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(90,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(94,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(95,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(117,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(118,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(121,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(125,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(125,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(142,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(166,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(166,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(167,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(167,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(82,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(83,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(88,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(92,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(92,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(96,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(97,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(121,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(122,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(125,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(129,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(129,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(170,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(170,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(171,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Image.cpp(171,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Main.cpp
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\flann\dist.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\stitching\detail\motion_estimators.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
   mouse.cpp
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\flann\dist.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\stitching\detail\motion_estimators.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
@@ -30,4 +33,4 @@ C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\stitching\d
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\flann\dist.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
 C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\opencv2\stitching\detail\motion_estimators.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
   Generating Code...
-  Project1.vcxproj -> C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Debug\Project1.exe
+C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\mouse.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\user\OneDrive\바탕 화면\shuzhi1\Project\Project\Debug\vc143.pdb

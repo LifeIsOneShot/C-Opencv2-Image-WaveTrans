@@ -24,7 +24,7 @@ void Mouse(int event, int x, int y, int flags, void *ustc)
 
 	if (flag == true){
 		image.BTrans(BT, MouseUp, MouseDown);// B형 파동
-		imshow("B형 파동", BT);
+		imshow("picture editor", BT);
 		flag = false;
 	}
 }
