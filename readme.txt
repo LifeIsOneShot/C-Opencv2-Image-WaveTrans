@@ -1,15 +1,14 @@
-Visual Studio 2012��v110��
-opencv2 ��ġ �ʿ�
-bin ���Ͽ� .dll ���ϵ��� �ִµ�, �̰��� C:\Windows\SysWOW64 ��η� �־������.
+Visual Studio 2012（v110）
+opencv2 설치 필요
+bin 파일에 .dll 파일들이 있는데, 이것을 C:\Windows\SysWOW64 경로로 넣어줘야함.
 
-project1.exe ���� ���Ϸ� ����
+project1.exe 실행 파일로 실행
 
-�Է�
-ȸ�� �ݿ� ������1~10��
+이미지 변형 프로그램 V02
+- 키보드 입력으로 효과 선택 추가 (1 : 회전, 2 : 물 파동, 3 : 마우스 드레그)
+- 다른 효과 중첩 가능하도록 적용
 
-�� �ĵ� �ݿ� ������1~10��
-
-B�� �ĵ��� ���콺 Ŭ�� �ÿ� �ߵ�, �̹����� ������.
+B형 파동은 마우스 클릭 시에 발동, 이미지가 변형됨.
 
 
 
